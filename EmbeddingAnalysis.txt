@@ -1,0 +1,19 @@
+When looking at the embedding analysis, I noticed that the same words reappeared in the lowest 10 for each dimension.
+This may be attributed to the fact that both authors may have used these words in the same context and style. I thought
+this was interested if this was true, because we can do more empirical analyses on the parallels between writing styles.
+
+An example of this was found in my 10th dimension:
+Dimension 10 :
+Top 10: ['bennet'] ['elizabeth'] ['acquaintance'] ['darcy'] ['aunt'] ['meryton'] ['character'] ['affection'] ['collins'] ['charlotte']
+Lowest 10: ['diary']['van']['september']['count']['sleep']['lucy']['dr']['held']['big']['feet']
+
+and my 6th dimension:
+Dimension 6 :
+Top 10: ['elizabeth'] ['bennet'] ['jane'] ['darcy'] ['character'] ['acquaintance'] ['longbourn'] ['lizzy'] ['collins'] ['affection']
+Lowest 10: ['dr']['september']['van']['jonathan']['feet']['helsing']['night']['mina']['blood']['death']
+
+The words dr, van, feet, and september all reappeared in both dimensions.
+
+As to what each dimensions mean, I was a bit confused about how to answer that question. But my best guess would be that
+each dimension is looking for correlations between the relative distances of where each word was used relative to
+each other.
